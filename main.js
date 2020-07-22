@@ -2,7 +2,7 @@
 
 //** Versione show/hide **/
 
-$('a i').click(function() {
+$('.header-right a i').click(function() { // oppure $('.header-right:last-child)
     $('.hamburger-menu').show();
 });
 
